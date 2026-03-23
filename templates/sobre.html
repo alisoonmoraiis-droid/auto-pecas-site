@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- SOBRE A EMPRESA -->
+<section class="sobre fade-in">
+
+    <h1>Ideal Auto Peças</h1>
+
+    <p>
+        Desde 26 de outubro de 2011, a Ideal Auto Peças vem construindo uma história sólida
+        baseada em confiança, qualidade e compromisso com cada cliente que passa por nossa loja.
+    </p>
+
+    <p>
+        Trabalhamos com peças automotivas para veículos nacionais e importados, sempre priorizando
+        produtos de alta qualidade, procedência garantida e preços justos.
+    </p>
+
+    <p>
+        Nosso objetivo vai além de vender peças: buscamos oferecer soluções, segurança e tranquilidade,
+        garantindo que cada cliente saia satisfeito e confiante.
+    </p>
+
+</section>
+
+<!-- HOMENAGEM -->
+<section class="homenagem fade-in">
+
+    <h2>Homenagem</h2>
+
+    <p>
+        A Ideal Auto Peças carrega consigo um legado que jamais será esquecido.
+    </p>
+
+    <p>
+        Fundada por <strong>Ailson Pereira de Morais</strong>, um homem de força admirável,
+        caráter inabalável e coração generoso, a empresa nasceu de seus sonhos, sua coragem
+        e sua determinação.
+    </p>
+
+    <p>
+        Ailson foi muito mais do que um empreendedor — foi um exemplo de resiliência,
+        sempre enfrentando desafios com firmeza, ajudando a todos ao seu redor e deixando
+        sua marca por onde passou.
+    </p>
+
+    <p>
+        Seu legado vive em cada detalhe da Ideal Auto Peças, no atendimento, na dedicação
+        e no compromisso com cada cliente.
+    </p>
+
+    <p>
+        Mais do que lembrado, ele é eternamente honrado.
+    </p>
+
+    <!-- IMAGENS -->
+    <div class="galeria-homenagem">
+        <img src="{{ url_for('static', filename='imagens/ailson1.jpg') }}" alt="Ailson">
+        <img src="{{ url_for('static', filename='imagens/ailson2.jpg') }}" alt="Ailson">
+    </div>
+
+</section>
+
+{% endblock %}
